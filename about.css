@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+ }
+
+ header {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background-image: url("images/guangzhou.jpg");    
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -120px;
+  height: 380px;
+  overflow: hidden;
+}
+
+.blur {
+  backdrop-filter: blur(2px);
+}
+
+nav {
+  /* position: -webkit-sticky; 
+  position: sticky; */
+  top: 0;
+  font-weight: bold;
+  width: 100%;
+  z-index: 10;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+header h1 {
+  height: 100%;
+  padding-top: 170px;
+  /* font-family: cursive; */
+  display: inline-block;
+}
+
+main {
+  background-color: rgb(246,249,252);
+  padding: 50px;
+  font-size: 25px;
+  height: 100%;
+}
+
+.crop {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.crop img {
+  width: 100%;
+  display: inline-block;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(51,51,51);
+  color: white;
+  font-size: 10px;
+  width: 100%;
+  bottom: 0;
+}
