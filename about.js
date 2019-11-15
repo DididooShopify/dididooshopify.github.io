@@ -14,19 +14,19 @@ window.onload = () => {
       portrait.style.filter = "grayscale(100%)";
       roblox.innerHTML += " (Net Worth: 24K+ Robux)";
       roblox.removeEventListener('mouseenter', enter);
-      roblox.removeEventListener('click', flexify)
+      roblox.removeEventListener('click', flexify);
     }
-  }
+  };
 
   let enter = function() {
     roblox.style.color = 'rgb(252,231,134)';
-  }
+  };
 
   let leave = function() {
     roblox.style.color = 'rgb(41, 218, 82)';
-  }
+  };
 
   roblox.addEventListener('mouseenter', enter);
   roblox.addEventListener('mouseleave', leave);
   roblox.addEventListener('click', flexify);
-}
+};

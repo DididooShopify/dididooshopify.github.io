@@ -5,7 +5,7 @@ window.onload = () => {
   let string = "Hi, I'm Edward Tang.";
   let chars = string.split("");
 
-  let i = 0
+  let i = 0;
   let animation = setInterval(function() {
       text.innerHTML += chars[i];
       i++;
@@ -14,4 +14,4 @@ window.onload = () => {
       }
   }, 100);
 
-}
+};
