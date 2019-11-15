@@ -20,7 +20,6 @@ body {
   backdrop-filter: blur(3px);
 }
 
-
 ul {
   list-style-type: none;
   display: flex;
@@ -59,14 +58,14 @@ main {
   font-family: 'Anonymous Pro';
   padding: 5px;
   border-right: .05em solid;
-  animation: caret 1s steps(1) infinite;
+  animation: blink 1s steps(1) infinite;
 }
 
 .name h1::first-letter {
   color: rgb(38, 172, 69)
 }
 
-@keyframes caret {
+@keyframes blink {
   50% {
     border-color: transparent;
   }

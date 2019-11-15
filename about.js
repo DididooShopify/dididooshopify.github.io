@@ -19,10 +19,12 @@ window.onload = () => {
   };
 
   let enter = function() {
+    roblox.style.cursor = 'pointer';
     roblox.style.color = 'rgb(252,231,134)';
   };
 
   let leave = function() {
+    roblox.style.cursor = 'auto';
     roblox.style.color = 'rgb(41, 218, 82)';
   };
 
