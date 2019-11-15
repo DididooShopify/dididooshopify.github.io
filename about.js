@@ -1,18 +1,3 @@
-// window.onload = () => {
-//   let background = document.querySelector("body").style.backgroundImage;
-//   const newBackground = function(imageURL, background) {
-//     background = `url("${imageURL}#" + new Date().getTime())`;
-//   };
-
-//   const oldBackground = () => {
-//     background = `url("images/guangzhoudark.jpg")`;
-//   };
-
-//   let pianist = document.getElementById("pianist");
-//   pianist.addEventListener('click', function(){newBackground("images/piano.jpg", background)});
-//   // pianist.addEventListener('mouseout', oldBackground);
-// };
-
 window.onload = () => {
   const roblox = document.getElementById("roblox");
 
