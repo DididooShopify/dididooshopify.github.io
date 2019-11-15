@@ -1,14 +1,14 @@
-@font-face {
-  font-family: 'Anonymous Pro';
-  src: url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-}
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   color: white;
+}
+
+body {
   font-size: 50px;
   background-image: url("images/guangzhoudark.jpg");    
   background-size: cover;
