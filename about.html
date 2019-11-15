@@ -3,34 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>Edward Tang</title>
-    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.5/howler.js'></script>
+    <script src="about.js" async></script>
   </head>
   <body>
-    <header>
-      <div class="blur">
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-        </nav>
-        <h1>Edward Tang</h1>
-      </div>
-    </header>
-
-
-    <main>
-      <div class="crop">
-          <img src="images/guangzhouairport.jpg" alt="Edward Tang at Guangzhou Airport" width=600px>
-      </div>
-      <p>Hey, that's me!</p>
-
-      <!-- <img src="images/trumpet.jpg" alt="Edward Tang with Trumpet" width=600px> -->
-    </main>
-    
-    <footer>
-      <h3>&copy; Edward Tang</h3>
-    </footer>
+    <div class="blur">
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+      <main>
+        <div class="text">
+          <header>
+            <h1>About</h1>
+          </header>
+          <p id="cyan">
+            I'm Edward Tang, a <span>computer science student</span> at York University and <span>software engineer intern</span> at Shopify in Toronto, Canada
+            (as part of <a href="http://devdegree.ca" target="_blank">Dev Degree</a>).
+          </p>
+          <p id="green">
+            I'm also an avid <span>pianist</span>, <span>calisthenics athlete</span> and <span id="roblox">Roblox stock trader</span>.
+            <!-- This is a work-integrated learning program where I study Computer Science at York University, while working as an intern on development teams at Shopify. -->
+          </p>
+        </div>
+        <figure class="crop">
+          <img id="glasses" src="images/glasses.png" alt="Thug Life Glasses">
+          <img id="portrait" src="images/guangzhouairport.jpg" alt="Edward Tang at Guangzhou Airport" width=600px>
+        </figure>
+      </main>
+      
+      <footer>
+        <ul>
+          <li><a href="https://github.com/DididooShopify" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/dididoo12/" target="_blank">LinkedIn</a></li>
+          <li><a href="mailto:edwardwjtang@gmail.com" target="_blank">Email</a></li>
+          <li><a href="https://www.roblox.com/users/15438681/profile" target="_blank">Roblox</a></li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>
