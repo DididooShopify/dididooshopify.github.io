@@ -54,19 +54,6 @@ main {
   background-color: rgba(28, 28, 77, 0.95);
 }
 
-footer {
-  padding: 20px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  bottom: 0;
-  position: fixed;
-}
-
-footer li a {
-  font-size: 35px;
-}
-
 table {
   margin-top: 2%;
   font-size: 25px;
@@ -82,11 +69,6 @@ table a:hover {
   color: rgb(252,231,134)
 }
 
-/* th {
-  font-size: 30px;
-  font-weight: 400;
-} */
-
 td {
   padding: 10px;
 }
@@ -96,4 +78,17 @@ table span {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+footer {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  position: fixed;
+}
+
+footer li a {
+  font-size: 35px;
 }

@@ -5,12 +5,11 @@
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
-
+  color: white;
 }
 
 body {
   font-size: 50px;
-  color: white;
   background-image: url("images/guangzhoudark.jpg");    
   background-size: cover;
   height: 100%;
@@ -20,7 +19,6 @@ body {
   height: 100%;
   backdrop-filter: blur(3px);
 }
-
 
 ul {
   list-style-type: none;
@@ -34,7 +32,6 @@ nav ul {
 
 li a {
   display: block;
-  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -61,11 +58,17 @@ main {
   font-family: 'Anonymous Pro';
   padding: 5px;
   border-right: .05em solid;
-  animation: caret 1s steps(1) infinite;
+  animation: blink 1s steps(1) infinite;
 }
 
 .name h1::first-letter {
   color: rgb(38, 172, 69)
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 p {
@@ -74,15 +77,8 @@ p {
   width: 70%;
 }
 
-@keyframes caret {
-  50% {
-    border-color: transparent;
-  }
-}
-
 footer {
   padding: 20px;
-  color: white;
   width: 100%;
   display: flex;
   justify-content: center;

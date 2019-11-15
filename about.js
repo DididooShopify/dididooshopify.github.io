@@ -1,18 +1,3 @@
-// window.onload = () => {
-//   let background = document.querySelector("body").style.backgroundImage;
-//   const newBackground = function(imageURL, background) {
-//     background = `url("${imageURL}#" + new Date().getTime())`;
-//   };
-
-//   const oldBackground = () => {
-//     background = `url("images/guangzhoudark.jpg")`;
-//   };
-
-//   let pianist = document.getElementById("pianist");
-//   pianist.addEventListener('click', function(){newBackground("images/piano.jpg", background)});
-//   // pianist.addEventListener('mouseout', oldBackground);
-// };
-
 window.onload = () => {
   const roblox = document.getElementById("roblox");
 
@@ -29,19 +14,21 @@ window.onload = () => {
       portrait.style.filter = "grayscale(100%)";
       roblox.innerHTML += " (Net Worth: 24K+ Robux)";
       roblox.removeEventListener('mouseenter', enter);
-      roblox.removeEventListener('click', flexify)
+      roblox.removeEventListener('click', flexify);
     }
-  }
+  };
 
   let enter = function() {
+    roblox.style.cursor = 'pointer';
     roblox.style.color = 'rgb(252,231,134)';
-  }
+  };
 
   let leave = function() {
+    roblox.style.cursor = 'auto';
     roblox.style.color = 'rgb(41, 218, 82)';
-  }
+  };
 
   roblox.addEventListener('mouseenter', enter);
   roblox.addEventListener('mouseleave', leave);
   roblox.addEventListener('click', flexify);
-}
+};
