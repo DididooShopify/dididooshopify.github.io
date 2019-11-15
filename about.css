@@ -112,7 +112,7 @@ footer li a {
   position: absolute;
   left: 65px;
   -webkit-animation: glassesDown 3s linear forwards paused;
-          animation: glassesDown 3s linear forwards paused;
+  animation: glassesDown 3s linear forwards paused;
   z-index: 5;
 }
 
